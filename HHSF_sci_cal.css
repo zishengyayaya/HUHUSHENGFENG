@@ -1,0 +1,33 @@
+
+.calculator {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.number{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.number .button:nth-child(3n-2){
+    margin-left: 30px;
+}
+.input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.button {
+    width: 70px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.result {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
