@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'MyZITI'; /* 字体名称，自定义 */
+  src: url('../ziti/MyZITI.ttf') format('truetype'); /* 修正字体路径和格式 */
+}
+@font-face {
+  font-family: '111'; /* 字体名称，自定义 */
+  src: url('../ziti/111.ttf') format('truetype'); /* 修正字体路径和格式 */
+}
+body {
+	  font-family: Arial, sans-serif;
+	  text-align: center;
+	  background-image: url('../img/kexue.png'); /* 替换 'your-image-url.jpg' 为你的背景图像文件路径 */
+	  background-size: cover; /* 可以根据需要调整背景图像的大小，cover会填充整个页面 */
+	    background-repeat: no-repeat;/* 防止背景图像重复显示  */
+	}
+img{
+	  /* display: block; */
+	  /* position: absolute; */
+	  left: 0;
+	  right: 0;
+	  width: 30%; /* 50% 表示将图片的宽度减少到原始大小的一半 */
+	    height: auto; /* 自动调整高度，以保持图片的纵横比不变 */
+	  margin: auto;
+	  display: block;
+	}
+.calculator {
+    width: 450px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+	border-color: #d6825a;
+	 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* 水平偏移5px，垂直偏移5px，模糊半径10px，透明度0.3的阴影 */
+}
+.number{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.number .button{
+  font-family: 'MyZITI'; /* 字体名称，自定义 */
+  font-weight: bold;
+}
+.number .button:nth-child(3n-2){
+    margin-left: 30px;
+}
+.input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+	background-color: #ffd6c9;
+	font-size: 20px;
+	font-family: 'MyZITI', Arial, sans-serif; 
+}
+.button {
+    width: 70px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+	 background-color: #ffd6c9; /* 设置背景颜色为绿色 */
+	color: #550000; /* 设置文字颜色为白色 */
+	font-size: 20px;
+	font-family: '111', Arial, sans-serif; 
+}
+
+.result {
+	background-color: #ffd6c9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+    margin-bottom: 20px;
+	font-size: 20px;
+	font-family: 'MyZITI', Arial, sans-serif; 
+}
+
+.button:hover{
+	background-color: #FF9999;
+	color: #FFFF99;
+	transform: translateX(1px);
+	}
+/* 设置按钮背景色为透明 */
+.transparent-button {
+    background-color: transparent;
+    color: #000; /* 设置文字颜色，以确保可见性 */
+    border: 1px solid #000; /* 添加边框，以显示按钮边界 */
+    padding: 10px 20px; /* 可选 - 设置内边距 */
+}	
+a{
+	display: block;
+	text-decoration: none;
+	font-family: 'MyZITI';
+	font-size: 25px;
+	color: #6f4242;
+}
+a:hover{
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: #ffd6c9;
+	color: #550000;
+	transform: translateX(1px);
+}

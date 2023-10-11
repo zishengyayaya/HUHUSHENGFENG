@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'MyZITI'; /* 字体名称，自定义 */
+  src: url('../ziti/MyZITI.ttf') format('truetype'); /* 修正字体路径和格式 */
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 200px;
+  background-image: url('../img/quehun.jpg'); /* 替换 'your-image-url.jpg' 为你的背景图像文件路径 */
+  background-size: cover; /* 可以根据需要调整背景图像的大小，cover会填充整个页面 */
+    background-repeat: no-repeat;/* 防止背景图像重复显示  */
+}
+
+/* .text-container {
+  margin-top: 20px; /* 在文本上方添加 20 像素的外边距 
+} */
+select{
+  font-family: 'MyZITI', sans-serif;
+  color: #000000; /* 修改 <b> 和 <span> 元素中的文本颜色为紫色 */
+  font-size: 20px;
+  font-family: 'MyZITI', Arial, sans-serif; 
+ 
+}
+option{
+  font-family: 'MyZITI';
+  
+}	
+
+td{
+  font-family: 'MyZITI'; /* 字体名称，自定义 */
+}
+img  {
+  /* display: block; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 50%; /* 50% 表示将图片的宽度减少到原始大小的一半 */
+    height: auto; /* 自动调整高度，以保持图片的纵横比不变 */
+  margin: auto;
+  display: block;
+}
+.input-container input[type="number"] {
+	font-family: 'MyZITI';
+    font-size: 20px; /* 设置文本大小为24像素 */
+}
+label {
+  display: inline-flex;
+  align-items: center;
+}
+
+.checkbox-label {
+    margin-right: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+th:hover, td.selected {
+  background-color: #FF9999;
+  color: #FFFF99;
+}
+
+b, span{
+  color: #000000; /* 修改 <b> 和 <span> 元素中的文本颜色为紫色 */
+  font-size: 30px;
+  font-family: 'MyZITI', Arial, sans-serif; 
+}
+p{
+  color: #000000; /* 修改 <b> 和 <span> 元素中的文本颜色为紫色 */
+  font-size: 24px;
+  font-family: 'MyZITI', Arial, sans-serif; 
+}
+option,label{
+  color: #000000; /* 修改 <b> 和 <span> 元素中的文本颜色为紫色 */ 
+  font-size: 20px;
+  font-family: 'MyZITI', Arial, sans-serif; 
+ 
+}
+h2,button{
+  color: #000000; /* 修改 <b> 和 <span> 元素中的文本颜色为紫色 */
+  font-size: 30px;
+  font-family: 'MyZITI', Arial, sans-serif; 
+}
+.input-container{
+	color: #000000; /* 修改 <b> 和 <span> 元素中的文本颜色为紫色 */
+	font-size: 20px;
+	font-family: 'MyZITI', Arial, sans-serif; 
+}
+input[type="number"] {
+    width: 100px; /* 设置输入框宽度为300像素 */
+    height: 28px; /* 设置输入框高度为40像素 */
+}
+button {
+    background-color: #ffffff; /* 设置背景颜色为绿色 */
+    color: #013244; /* 设置文字颜色为白色 */
+    padding: 10px 20px; /* 可选 - 设置内边距 */
+}
+button:hover{
+	background-color: #FF9999;
+	color: #FFFF99;
+	transform: translateX(1px);
+}
+.input-container input[type="number"] {
+	font-family: 'MyZITI';
+    font-size: 20px; /* 设置文本大小为24像素 */
+}
+a{
+	display: block;
+	text-decoration: none;
+	font-family: 'MyZITI';
+	font-size: 25px;
+	color: #6f4242;
+	margin-top: 100px;
+}
+a:hover{
+	margin-left: 380px;
+	margin-right: 380px;
+	background-color: #FF9999;
+	color: #FFFF99;
+	transform: translateX(1px);
+}

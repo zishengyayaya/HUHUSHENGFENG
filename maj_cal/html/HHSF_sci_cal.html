@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>虎虎生枫科学计算器</title>
+    <link rel="stylesheet" href="../css/HHSF_sci_cal.css">
+    <script src="../js/HHSF_sci_cal.js"></script>
+	<img src="../img/huhusf.png" alt="Your Image Description" class="centered-image">
+</head>
+<body>
+    <div class="calculator">
+
+        <input type="text" class="input" id="expression" placeholder="输入表达式">
+       
+
+        <br>
+        <button class="button" onclick="calculate()">计算</button>
+        <button class="button" onclick="calculateSin()">sin</button>
+        <button class="button" onclick="calculateCos()">cos</button>
+        <button class="button" onclick="calculateTan()">tan</button>
+        <button class="button" onclick="calculateaSin()">asin</button>
+        <button class="button" onclick="calculateaCos()">acos</button>
+        <button class="button" onclick="calculateaTan()">atan</button>
+        <button class="button" onclick="calculatePower1()">X^2</button>
+        <button class="button" onclick="calculatePower()">X^Y</button>
+        <button class="button" onclick="calculateSqrt()">√X</button>
+        <button class="button" onclick="calculateRoot()">n√X</button>
+        <button class="button" onclick="calculateLn()">Ln</button>
+        <button class="button" onclick="calculateLog()">lg</button>
+        <button class="button" onclick="calculateReciprocal()">1/X</button>
+        <button class="button" onclick="calculateAbsoluteValue()">abs</button>
+        <br>
+        <div class="number">
+        <button class="button" onclick="addNumber(1)">1</button>
+        <button class="button" onclick="addNumber(2)">2</button>
+        <button class="button" onclick="addNumber(3)">3</button>
+        <!-- <br> -->
+        <button class="button" onclick="addNumber(4)">4</button>
+        <button class="button" onclick="addNumber(5)">5</button>
+        <button class="button" onclick="addNumber(6)">6</button>
+        <!-- <br> -->
+        <button class="button" onclick="addNumber(7)">7</button>
+        <button class="button" onclick="addNumber(8)">8</button>
+        <button class="button" onclick="addNumber(9)">9</button>
+        <!-- <br> -->
+        <button class="button" onclick="addOperator('.')">.</button>
+        <button class="button" onclick="addNumber(0)">0</button>
+        <button class="button" onclick="addOperator('+')">+</button>
+        <!-- <br> -->
+        <button class="button" onclick="addOperator('-')">-</button>
+        <button class="button" onclick="addOperator('*')">*</button>
+        <button class="button" onclick="addOperator('/')">/</button>
+        <!-- <br> -->
+        <button class="button" onclick="addOperator('^')">^</button>
+        <button class="button" onclick="addOperator('√')">√</button>
+        <button class="button" onclick="clearInput()">清空</button>
+        </div>
+        <br>
+		<a href="./HHSF_sci_rima.html">进入立直麻将计算器</a>
+        <div class="result" id="result"></div>
+        <!-- <a href="./rima.html">rima</a>/ -->
+    </div>
+	
+</body>
+</html>
